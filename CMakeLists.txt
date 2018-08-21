@@ -46,6 +46,11 @@ find_package(catkin REQUIRED std_msgs message_generation)
 add_message_files(
   FILES
   Thruster.msg
+  Point2D.msg
+  Size2D.msg
+  Ellipse.msg
+  Line.msg
+  Basket.msg
 )
 
 ## Generate services in the 'srv' folder
